@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlphaVitality - Men's Health & Confidence</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: white;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0a2540;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background: linear-gradient(to right, #0a2540, #1e3c72);
+            color: white;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #f4a261;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #e76f51;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #0a2540;
+            color: white;
+        }
+        .testimonials {
+            background-color: #f9f9f9;
+            padding: 40px;
+            text-align: center;
+        }
+        .testimonial {
+            max-width: 600px;
+            margin: 0 auto 20px;
+            font-style: italic;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AlphaVitality</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#consult">Consultations</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <h2>Empowering Men with Science-Backed Strategies</h2>
+        <p>Enhance your confidence, stamina, and overall well-being with expert guidance.</p>
+        <a href="#blog" class="cta-button">Explore Tips</a>
+    </section>
+    
+    <section class="testimonials">
+        <h2>What Our Users Say</h2>
+        <p class="testimonial">"AlphaVitality transformed my confidence and performance. Highly recommended!" - John D.</p>
+        <p class="testimonial">"Practical advice backed by science. A game-changer!" - Alex M.</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 AlphaVitality. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
