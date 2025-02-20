@@ -99,6 +99,8 @@
     </section>
     
     <footer>
+npm init -y
+
         <p>&copy; 2025 AlphaVitality. All Rights Reserved.</p>
     </footer>
 </body>
